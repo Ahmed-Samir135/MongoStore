@@ -1,0 +1,26 @@
+{
+  "name": "mongooo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed-Samir135/MongoStore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed-Samir135/MongoStore/issues"
+  },
+  "homepage": "https://github.com/Ahmed-Samir135/MongoStore#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.21"
+  }
+}
