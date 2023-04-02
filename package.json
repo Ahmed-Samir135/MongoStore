@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/Ahmed-Samir135/MongoStore#readme",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "mongoos": "^0.0.1-security",
     "mongoose": "^7.0.2",
-    "nodemon": "^2.0.21"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
   }
 }
